@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69957089A59A874ED25BE4E0 /* Pods_mintbank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ACB177D50E170CFB5455C5 /* Pods_mintbank.framework */; };
+		986377B51958BEE3D21B3CB8 /* Pods_mintbankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08597BDB18B01A0AB41DC531 /* Pods_mintbankTests.framework */; };
+		DA831B46986667843056DE7E /* Pods_mintbank_mintbankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCBC7265E5441398139972 /* Pods_mintbank_mintbankUITests.framework */; };
+		DDF8FE732518B90500ECDA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE722518B90500ECDA62 /* AppDelegate.swift */; };
+		DDF8FE752518B90500ECDA62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE742518B90500ECDA62 /* SceneDelegate.swift */; };
+		DDF8FE772518B90500ECDA62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE762518B90500ECDA62 /* ViewController.swift */; };
+		DDF8FE7D2518B90500ECDA62 /* mintbank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE7B2518B90500ECDA62 /* mintbank.xcdatamodeld */; };
+		DDF8FE7F2518B90900ECDA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF8FE7E2518B90900ECDA62 /* Assets.xcassets */; };
+		DDF8FE822518B90900ECDA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8FE802518B90900ECDA62 /* LaunchScreen.storyboard */; };
+		DDF8FE8D2518B90A00ECDA62 /* mintbankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE8C2518B90A00ECDA62 /* mintbankTests.swift */; };
+		DDF8FE982518B90A00ECDA62 /* mintbankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FE972518B90A00ECDA62 /* mintbankUITests.swift */; };
+		DDF8FEAC2518BB9100ECDA62 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FEAB2518BB9100ECDA62 /* CellTableViewCell.swift */; };
+		DDF8FEB02518BDEC00ECDA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF8FEAF2518BDEC00ECDA62 /* Main.storyboard */; };
+		DDF8FEB22518BF4A00ECDA62 /* Apicalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FEB12518BF4A00ECDA62 /* Apicalls.swift */; };
+		DDF8FEB52518BF8C00ECDA62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FEB42518BF8C00ECDA62 /* Constants.swift */; };
+		DDF8FEB72518BFD600ECDA62 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FEB62518BFD600ECDA62 /* RepoModel.swift */; };
+		DDF8FEB92518C07800ECDA62 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8FEB82518C07800ECDA62 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF8FE892518B90A00ECDA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF8FE672518B90500ECDA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF8FE6E2518B90500ECDA62;
+			remoteInfo = mintbank;
+		};
+		DDF8FE942518B90A00ECDA62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF8FE672518B90500ECDA62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF8FE6E2518B90500ECDA62;
+			remoteInfo = mintbank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01911A97F076A601AC6622E9 /* Pods-mintbank-mintbankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbank-mintbankUITests.release.xcconfig"; path = "Target Support Files/Pods-mintbank-mintbankUITests/Pods-mintbank-mintbankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		08597BDB18B01A0AB41DC531 /* Pods_mintbankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintbankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144234C0D949530B9A9E3432 /* Pods-mintbank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbank.release.xcconfig"; path = "Target Support Files/Pods-mintbank/Pods-mintbank.release.xcconfig"; sourceTree = "<group>"; };
+		16B39CA178836AE813CAE453 /* Pods-mintbankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbankTests.release.xcconfig"; path = "Target Support Files/Pods-mintbankTests/Pods-mintbankTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6ACB177D50E170CFB5455C5 /* Pods_mintbank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintbank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFCBC7265E5441398139972 /* Pods_mintbank_mintbankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mintbank_mintbankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79BD2CD26B3C735726BB4A2 /* Pods-mintbank-mintbankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbank-mintbankUITests.debug.xcconfig"; path = "Target Support Files/Pods-mintbank-mintbankUITests/Pods-mintbank-mintbankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA601FE66576750A94FAC6E1 /* Pods-mintbank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbank.debug.xcconfig"; path = "Target Support Files/Pods-mintbank/Pods-mintbank.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF8FE6F2518B90500ECDA62 /* mintbank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mintbank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8FE722518B90500ECDA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF8FE742518B90500ECDA62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDF8FE762518B90500ECDA62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		DDF8FE7C2518B90500ECDA62 /* mintbank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mintbank.xcdatamodel; sourceTree = "<group>"; };
+		DDF8FE7E2518B90900ECDA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF8FE812518B90900ECDA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF8FE832518B90900ECDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF8FE882518B90A00ECDA62 /* mintbankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mintbankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8FE8C2518B90A00ECDA62 /* mintbankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mintbankTests.swift; sourceTree = "<group>"; };
+		DDF8FE8E2518B90A00ECDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF8FE932518B90A00ECDA62 /* mintbankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mintbankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF8FE972518B90A00ECDA62 /* mintbankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mintbankUITests.swift; sourceTree = "<group>"; };
+		DDF8FE992518B90A00ECDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF8FEAB2518BB9100ECDA62 /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		DDF8FEAF2518BDEC00ECDA62 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DDF8FEB12518BF4A00ECDA62 /* Apicalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apicalls.swift; sourceTree = "<group>"; };
+		DDF8FEB42518BF8C00ECDA62 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DDF8FEB62518BFD600ECDA62 /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		DDF8FEB82518C07800ECDA62 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FC2B8E88C422F772C382314B /* Pods-mintbankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mintbankTests.debug.xcconfig"; path = "Target Support Files/Pods-mintbankTests/Pods-mintbankTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF8FE6C2518B90500ECDA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69957089A59A874ED25BE4E0 /* Pods_mintbank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE852518B90A00ECDA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986377B51958BEE3D21B3CB8 /* Pods_mintbankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE902518B90A00ECDA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA831B46986667843056DE7E /* Pods_mintbank_mintbankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0241946C24768313AF194508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6ACB177D50E170CFB5455C5 /* Pods_mintbank.framework */,
+				CEFCBC7265E5441398139972 /* Pods_mintbank_mintbankUITests.framework */,
+				08597BDB18B01A0AB41DC531 /* Pods_mintbankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EFCB5614007446D4224B85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA601FE66576750A94FAC6E1 /* Pods-mintbank.debug.xcconfig */,
+				144234C0D949530B9A9E3432 /* Pods-mintbank.release.xcconfig */,
+				D79BD2CD26B3C735726BB4A2 /* Pods-mintbank-mintbankUITests.debug.xcconfig */,
+				01911A97F076A601AC6622E9 /* Pods-mintbank-mintbankUITests.release.xcconfig */,
+				FC2B8E88C422F772C382314B /* Pods-mintbankTests.debug.xcconfig */,
+				16B39CA178836AE813CAE453 /* Pods-mintbankTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDF8FE662518B90500ECDA62 = {
+			isa = PBXGroup;
+			children = (
+				DDF8FE712518B90500ECDA62 /* mintbank */,
+				DDF8FE8B2518B90A00ECDA62 /* mintbankTests */,
+				DDF8FE962518B90A00ECDA62 /* mintbankUITests */,
+				DDF8FE702518B90500ECDA62 /* Products */,
+				A6EFCB5614007446D4224B85 /* Pods */,
+				0241946C24768313AF194508 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF8FE702518B90500ECDA62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FE6F2518B90500ECDA62 /* mintbank.app */,
+				DDF8FE882518B90A00ECDA62 /* mintbankTests.xctest */,
+				DDF8FE932518B90A00ECDA62 /* mintbankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF8FE712518B90500ECDA62 /* mintbank */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEB32518BF7800ECDA62 /* utils */,
+				DDF8FEA82518BB1300ECDA62 /* controller */,
+				DDF8FEA72518BAE300ECDA62 /* model */,
+				DDF8FEA62518BAD100ECDA62 /* view */,
+				DDF8FEA52518BAC000ECDA62 /* network */,
+				DDF8FE722518B90500ECDA62 /* AppDelegate.swift */,
+				DDF8FE742518B90500ECDA62 /* SceneDelegate.swift */,
+				DDF8FE802518B90900ECDA62 /* LaunchScreen.storyboard */,
+				DDF8FE832518B90900ECDA62 /* Info.plist */,
+				DDF8FE7B2518B90500ECDA62 /* mintbank.xcdatamodeld */,
+			);
+			path = mintbank;
+			sourceTree = "<group>";
+		};
+		DDF8FE8B2518B90A00ECDA62 /* mintbankTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FE8C2518B90A00ECDA62 /* mintbankTests.swift */,
+				DDF8FE8E2518B90A00ECDA62 /* Info.plist */,
+			);
+			path = mintbankTests;
+			sourceTree = "<group>";
+		};
+		DDF8FE962518B90A00ECDA62 /* mintbankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FE972518B90A00ECDA62 /* mintbankUITests.swift */,
+				DDF8FE992518B90A00ECDA62 /* Info.plist */,
+			);
+			path = mintbankUITests;
+			sourceTree = "<group>";
+		};
+		DDF8FEA52518BAC000ECDA62 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEB12518BF4A00ECDA62 /* Apicalls.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		DDF8FEA62518BAD100ECDA62 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEA92518BB6800ECDA62 /* tableviewcells */,
+				DDF8FE7E2518B90900ECDA62 /* Assets.xcassets */,
+				DDF8FEAF2518BDEC00ECDA62 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DDF8FEA72518BAE300ECDA62 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEB62518BFD600ECDA62 /* RepoModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DDF8FEA82518BB1300ECDA62 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FE762518B90500ECDA62 /* ViewController.swift */,
+				DDF8FEB82518C07800ECDA62 /* BaseViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		DDF8FEA92518BB6800ECDA62 /* tableviewcells */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEAB2518BB9100ECDA62 /* CellTableViewCell.swift */,
+			);
+			path = tableviewcells;
+			sourceTree = "<group>";
+		};
+		DDF8FEB32518BF7800ECDA62 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DDF8FEB42518BF8C00ECDA62 /* Constants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF8FE6E2518B90500ECDA62 /* mintbank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8FE9C2518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbank" */;
+			buildPhases = (
+				2489ECA24BFC7CEBF2674C47 /* [CP] Check Pods Manifest.lock */,
+				DDF8FE6B2518B90500ECDA62 /* Sources */,
+				DDF8FE6C2518B90500ECDA62 /* Frameworks */,
+				DDF8FE6D2518B90500ECDA62 /* Resources */,
+				D3553D98A112C65856A152B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mintbank;
+			productName = mintbank;
+			productReference = DDF8FE6F2518B90500ECDA62 /* mintbank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF8FE872518B90A00ECDA62 /* mintbankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8FE9F2518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbankTests" */;
+			buildPhases = (
+				AB6DE07CAC8D6F0ECB14EA64 /* [CP] Check Pods Manifest.lock */,
+				DDF8FE842518B90A00ECDA62 /* Sources */,
+				DDF8FE852518B90A00ECDA62 /* Frameworks */,
+				DDF8FE862518B90A00ECDA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF8FE8A2518B90A00ECDA62 /* PBXTargetDependency */,
+			);
+			name = mintbankTests;
+			productName = mintbankTests;
+			productReference = DDF8FE882518B90A00ECDA62 /* mintbankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF8FE922518B90A00ECDA62 /* mintbankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF8FEA22518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbankUITests" */;
+			buildPhases = (
+				1880804F0B48106525B29108 /* [CP] Check Pods Manifest.lock */,
+				DDF8FE8F2518B90A00ECDA62 /* Sources */,
+				DDF8FE902518B90A00ECDA62 /* Frameworks */,
+				DDF8FE912518B90A00ECDA62 /* Resources */,
+				CB7E0CB06049F1347449912F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF8FE952518B90A00ECDA62 /* PBXTargetDependency */,
+			);
+			name = mintbankUITests;
+			productName = mintbankUITests;
+			productReference = DDF8FE932518B90A00ECDA62 /* mintbankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF8FE672518B90500ECDA62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Chukwuebuka Nwudo";
+				TargetAttributes = {
+					DDF8FE6E2518B90500ECDA62 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DDF8FE872518B90A00ECDA62 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DDF8FE6E2518B90500ECDA62;
+					};
+					DDF8FE922518B90A00ECDA62 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DDF8FE6E2518B90500ECDA62;
+					};
+				};
+			};
+			buildConfigurationList = DDF8FE6A2518B90500ECDA62 /* Build configuration list for PBXProject "mintbank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF8FE662518B90500ECDA62;
+			productRefGroup = DDF8FE702518B90500ECDA62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF8FE6E2518B90500ECDA62 /* mintbank */,
+				DDF8FE872518B90A00ECDA62 /* mintbankTests */,
+				DDF8FE922518B90A00ECDA62 /* mintbankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF8FE6D2518B90500ECDA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8FEB02518BDEC00ECDA62 /* Main.storyboard in Resources */,
+				DDF8FE822518B90900ECDA62 /* LaunchScreen.storyboard in Resources */,
+				DDF8FE7F2518B90900ECDA62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE862518B90A00ECDA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE912518B90A00ECDA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1880804F0B48106525B29108 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintbank-mintbankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2489ECA24BFC7CEBF2674C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintbank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB6DE07CAC8D6F0ECB14EA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mintbankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7E0CB06049F1347449912F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintbank-mintbankUITests/Pods-mintbank-mintbankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintbank-mintbankUITests/Pods-mintbank-mintbankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mintbank-mintbankUITests/Pods-mintbank-mintbankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3553D98A112C65856A152B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintbank/Pods-mintbank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mintbank/Pods-mintbank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mintbank/Pods-mintbank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF8FE6B2518B90500ECDA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8FEB22518BF4A00ECDA62 /* Apicalls.swift in Sources */,
+				DDF8FEB72518BFD600ECDA62 /* RepoModel.swift in Sources */,
+				DDF8FEAC2518BB9100ECDA62 /* CellTableViewCell.swift in Sources */,
+				DDF8FE772518B90500ECDA62 /* ViewController.swift in Sources */,
+				DDF8FE7D2518B90500ECDA62 /* mintbank.xcdatamodeld in Sources */,
+				DDF8FEB92518C07800ECDA62 /* BaseViewController.swift in Sources */,
+				DDF8FEB52518BF8C00ECDA62 /* Constants.swift in Sources */,
+				DDF8FE732518B90500ECDA62 /* AppDelegate.swift in Sources */,
+				DDF8FE752518B90500ECDA62 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE842518B90A00ECDA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8FE8D2518B90A00ECDA62 /* mintbankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF8FE8F2518B90A00ECDA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF8FE982518B90A00ECDA62 /* mintbankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF8FE8A2518B90A00ECDA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF8FE6E2518B90500ECDA62 /* mintbank */;
+			targetProxy = DDF8FE892518B90A00ECDA62 /* PBXContainerItemProxy */;
+		};
+		DDF8FE952518B90A00ECDA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF8FE6E2518B90500ECDA62 /* mintbank */;
+			targetProxy = DDF8FE942518B90A00ECDA62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF8FE802518B90900ECDA62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF8FE812518B90900ECDA62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF8FE9A2518B90A00ECDA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF8FE9B2518B90A00ECDA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF8FE9D2518B90A00ECDA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA601FE66576750A94FAC6E1 /* Pods-mintbank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF8FE9E2518B90A00ECDA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144234C0D949530B9A9E3432 /* Pods-mintbank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDF8FEA02518B90A00ECDA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2B8E88C422F772C382314B /* Pods-mintbankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mintbank.app/mintbank";
+			};
+			name = Debug;
+		};
+		DDF8FEA12518B90A00ECDA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B39CA178836AE813CAE453 /* Pods-mintbankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mintbank.app/mintbank";
+			};
+			name = Release;
+		};
+		DDF8FEA32518B90A00ECDA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79BD2CD26B3C735726BB4A2 /* Pods-mintbank-mintbankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mintbank;
+			};
+			name = Debug;
+		};
+		DDF8FEA42518B90A00ECDA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01911A97F076A601AC6622E9 /* Pods-mintbank-mintbankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQ73439R9;
+				INFOPLIST_FILE = mintbankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.mintbankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mintbank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF8FE6A2518B90500ECDA62 /* Build configuration list for PBXProject "mintbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8FE9A2518B90A00ECDA62 /* Debug */,
+				DDF8FE9B2518B90A00ECDA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8FE9C2518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8FE9D2518B90A00ECDA62 /* Debug */,
+				DDF8FE9E2518B90A00ECDA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8FE9F2518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8FEA02518B90A00ECDA62 /* Debug */,
+				DDF8FEA12518B90A00ECDA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF8FEA22518B90A00ECDA62 /* Build configuration list for PBXNativeTarget "mintbankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF8FEA32518B90A00ECDA62 /* Debug */,
+				DDF8FEA42518B90A00ECDA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDF8FE7B2518B90500ECDA62 /* mintbank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDF8FE7C2518B90500ECDA62 /* mintbank.xcdatamodel */,
+			);
+			currentVersion = DDF8FE7C2518B90500ECDA62 /* mintbank.xcdatamodel */;
+			path = mintbank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDF8FE672518B90500ECDA62 /* Project object */;
+}
